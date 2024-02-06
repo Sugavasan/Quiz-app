@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login-container
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 2px;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 80px;
+    
+}
+
+.head{
+   position: absolute;
+   top:-20%;
+    left: 20%; 
+}
+
+label{
+    padding:5px;
+    margin: 2px;
+    
+}
+
+#move{
+    margin:5px;
+    width:270px;
+}
+#move2{
+    margin:5px;
+    width:320px;
+}
+.rowe{
+    display: flex;
+    margin: 5px;
+}
+.rowe >*{              /*it directs all child element below them  */
+    margin-right: 10px;
+}
+
+.btn-outline-success{
+    width:270px;
+    margin:8px;
+}
+
+input{
+    border-left:none;
+    border-top: none;
+    border-right: none;
+    
+}
+
